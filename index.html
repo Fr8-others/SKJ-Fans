@@ -2,35 +2,95 @@
 <html lang="ja">
  <head>
  <meta charset="utf-8">
- <title>サイトタイトル</title>
- <meta name="description" content="サイトキャプションを入力">
- <meta name="keywords" content="サイトキーワードを,で区切って入力">
- <link rel="stylesheet" href="sample.css">
- <!--[if lt IE 9]>
- <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
- <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
- <![endif]-->
- <script src="sample.js"></script>
+ <title>SKJ Village ファンサイト</title>
+ <meta name="description" content="SKJ Villageのファンの運営するサイトです。SKJ Villageやその界隈に関する情報を不定期にお知らせします。">
+ <meta name="keywords" content="SKJ,SKJVillage,sa2,サイカツ,シンカ,SKJmad"><!--追加は,で区切って行う--->
+ <link rel="stylesheet" href="style.css">
+ <script src="main.js"></script>
  </head>
- 
+
  <body>
  <!----- ヘッダー ----->
- <header>ヘッダー</header>
- <nav>ナビ</nav>
+ <header>
+    <a href="index.html" >
+        <img src="img/header.png" style="width: 100%;" alt="ore">
+    </a>
+    <nav>
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="skj.html">SKJ Villageについて</a></li>
+            <li><a href="fans.html">ファン・二次創作</a></li>
+            <li><a href="feature.html">語録・名シーン</a></li>
+            <li><a href="form.html">サイトについて・お問い合わせ</a></li>
+        </ul>
+    </nav> 
+ </header>
  <!----- ヘッダー END ----->
  
  <!----- メインコンテンツ ----->
  <article>
- <h1>タイトル</h1>
+ <h1>SKJ Village まとめ</h1>
  <section>
- <h2>タイトル</h2>
- <p>コンテンツの内容</p>
+    <h2>初心者ガイド</h2>
+    <p>ここに来るのは初ですか?<br>もしそうならまずこれを読んでください！</p>
+    <a href="">ニューカマー向け文書</a>
+    <h2>お知らせ</h2><!--上に最新のものが来るように追記-->
+    <ul>
+        <li>
+            <div class="wrap">
+                <label for="label1">▼ SKJVillage5周年</label>
+                <input type="checkbox" id="label1" class="switch">
+                <div class="content">
+                  <p class="contentTxt">
+                    2023年5月25日をもってSKJVillageはチャンネル設立5周年を迎えます。<br>
+                    めでたいですね。みんなでお祝いしましょう！
+                  </p>
+                </div>
+              </div>
+        </li>
+    </ul>
  </section>
+ <h2>ページ一覧</h2><!--下の適当な箇所に追記-->
+    <ul>
+        <li><a href="index.html" class="everyIndex">ホーム</a></li>
+        <li><a href="skj.html" class="everyIndex">SKJ Villageについて</a>
+            <ul>
+
+            </ul>
+        </li>
+        <li><a href="fans.html" class="everyIndex">ファン・二次創作</a>
+            <ul>
+                <li>
+                    <a href="fans/guide.html" class="everyIndex">初心者ガイド</a>
+                </li>
+                <li>
+                    <a href="fans.html" class="everyIndex">SKJ二次創作作者</a>
+                </li>
+                <li>
+                    <a href="fans/creation.html" class="everyIndex">二次創作の作り方</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="feature.html" class="everyIndex">語録・名シーン</a>
+            <ul>
+                
+            </ul>
+        </li>
+        <li><a href="form.html" class="everyIndex">サイトについて・お問い合わせ</a></li>
+    </ul>
  </article>
  <!----- メインコンテンツ END ----->
  
  <!----- フッター ----->
- <footer>フッター</footer>
+ <footer>
+    <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="skj.html">SKJ Villageについて</a></li>
+        <li><a href="fans.html">ファン・二次創作</a></li>
+        <li><a href="feature.html">語録・名シーン</a></li>
+        <li><a href="form.html">サイトについて・お問い合わせ</a></li>
+    </ul>
+ </footer>
  <!----- フッター END ----->
  </body>
 </html>

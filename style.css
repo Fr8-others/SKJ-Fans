@@ -1,0 +1,147 @@
+body{
+    color: black;
+    background-color:skyblue;
+}
+
+body header{
+    background-color: black;
+}
+header a img{
+    margin-top: 0px;
+}
+header nav{
+    z-index: 10;
+    height: 64px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+header nav ul{
+    overflow:hidden;
+    list-style:none;
+    margin: 0 auto;
+    z-index: 20;
+}
+header nav ul li{
+    display:inline-block;
+    padding: 20px 20px 20px 20px;
+}
+header nav ul li a{
+    color: white;
+    text-decoration-line: none;
+}
+
+body article{
+    padding-left: 64px;
+    padding-right: 64px;   
+}
+.box1{
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+    background-color: #7777ff;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+    color:#000000;
+}
+.sa2{
+    color:blue;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+}
+.sai{
+    color:red;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+}
+.sin{
+    color:yellow;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+li{
+    list-style-type: none;
+}
+h1 {
+    position: relative;
+    color: #aaaa00;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 40px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 1.5em 0;
+  }
+  h1:before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    width: 500px;
+    height: 80px;
+    border-radius: 00%;
+    border: 5px solid #ffffaa;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+h2 {
+    width: fit-content;
+    padding: 0.5em;
+    color: #339933;
+    background: #eeffee;
+    border-left: solid 5px #ffaf58;
+  }
+h3 {
+    text-align: center;
+    color: #44ff77;
+}
+.everyIndex{
+    text-decoration: none;
+    color:#9900ff;
+}
+.wrap {
+    margin: 2em 0;
+    padding: 0;
+  }
+  .wrap label {
+    display: block;
+    padding : 8px;
+    font-size: 20px;
+    color: #44ff77;
+    font-weight: bold;
+    background: #7777ff;
+    cursor: pointer;
+  }
+  .wrap input[type="checkbox"] {
+    display: none;
+  }
+  .wrap .content {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+  }
+  .contentTxt {
+    font-size: 0.5em;
+  }
+  .switch:checked + .content {
+    height: auto;
+    padding: 8px;
+    background: #f7f7f7;
+  }
+
+  footer{
+    background-color: #000000;
+  }
+  footer ul li a{
+    text-decoration: none;
+    color:white;
+  }
