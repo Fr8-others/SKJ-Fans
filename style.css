@@ -1,6 +1,10 @@
 body{
+  -webkit-text-size-adjust: 100%;
     color: black;
     background-color:skyblue;
+}
+body p{
+  font-size: 16px;
 }
 
 body header{
@@ -50,18 +54,30 @@ body article{
 }
 .sa2{
     color:blue;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #fff;
 }
 .sai{
     color:red;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #fff;
 }
 .sin{
     color:yellow;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+}
+p.sa2{
+  color:blue;
+  -webkit-text-stroke-width: 0em;
+}
+p.sai{
+  color:red;
+  -webkit-text-stroke-width: 0em;
+}
+p.sin{
+  color:yellow;
+  -webkit-text-stroke-width: 0em;
 }
 li{
     list-style-type: none;
@@ -72,7 +88,7 @@ h1 {
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: white;
     font-size: 40px;
-    padding: 10px 0;
+    padding: 10px 0 10px 0;
     text-align: center;
     margin: 1.5em 0;
   }
@@ -92,15 +108,25 @@ h1 {
   }
 
 h2 {
-    width: fit-content;
+    width:  500px;
+    height: max-content;
     padding: 0.5em;
     color: #339933;
     background: #eeffee;
     border-left: solid 5px #ffaf58;
+    font-size: 2em;
   }
 h3 {
-    text-align: center;
-    color: #44ff77;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  color: #ffff44;
+  font-size: 1.5em;
+}
+h4{
+  font-size: 1.25em;
+  color:#4488ff;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
 }
 .everyIndex{
     text-decoration: none;
@@ -144,4 +170,5 @@ h3 {
   footer ul li a{
     text-decoration: none;
     color:white;
+    font-size:xx-small;
   }
