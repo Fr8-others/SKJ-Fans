@@ -10,7 +10,7 @@ body{
     'sans-serif';
 }
 body p{
-  font-size: 16px;
+  font-size: 20px;
 }
 
 body header{
@@ -176,5 +176,4 @@ h4{
   footer ul li a{
     text-decoration: none;
     color:white;
-    font-size:xx-small;
   }
