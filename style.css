@@ -59,19 +59,13 @@ body article{
     color:#000000;
 }
 .sa2{
-    color:blue;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: #fff;
+    color:blue;    
 }
 .sai{
     color:red;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: #fff;
 }
 .sin{
     color:yellow;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: #000;
 }
 p.sa2{
   color:blue;
